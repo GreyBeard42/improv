@@ -1,0 +1,16 @@
+{
+  "title": "Improv",
+  "desc": "\"Improv\" over Rythm Changes",
+
+  "status": "archived",
+  "version": "v1",
+
+  "date": "6/18/2026",
+
+  "tags": [
+    "javascript",
+    "tone.js",
+    "tinker",
+    "music"
+  ]
+}
