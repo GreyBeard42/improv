@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/tone@latest/build/Tone.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/soundfont-player@latest/dist/soundfont-player.min.js"></script>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Rythm Changes Improv</title>
+        <style>
+            body {
+                max-width: 300px;
+            }
+            #current {
+                margin-top: 16px;
+            }
+            select {
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Randomized Improv</h1>
+        <p>Random notes (in scale) over Rythm Changes.</p>
+        <!-- <select id="form">
+            <option value="0" selected>Rythm Changes</option>
+            <option value="1">12 Bar Blues</option>
+        </select> -->
+        <button id="play">Play</button>
+        <div id="current">Click play to start</div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
